@@ -4,17 +4,15 @@
 }
 
 
-.logo {width:23%;
-padding:1%; text-align: center;}
-
 nav {
-    width:73%;
-    padding:1%;
+    width:100%
 }
 
 ul {
     width: 50%; 
-    margin-left: auto; }
+    margin-left: auto;
+    margin-right: 0;
+ }
 
 li {
     width:50%;
@@ -22,15 +20,21 @@ li {
     display: inline;
     padding: 10px
 }
-.logo {text-align: center;}
+.logo {text-align: center;
+    padding-right: 20px;}
 
-.heroimg
-{ height: 600in
-padding:25px;
-justify-content:center;
+p{
+padding: 15px;
 }
 
-.resume {display:block; margin:50px auto; }
+.nav-link{
+    font-size: larger;
+    text-align: right;}
+
+.heroimg {
+    padding: 25px;
+    justify-content:center; }
+
 
 .content
 {width: 700px;
@@ -43,14 +47,6 @@ footer ul {
     display:inline-block; vertical-align: top; padding:10px;
 }
 
-footer ul li{padding:10px}
-
-button {background-color: beige;
-    margin: 20px;
-    border-radius: 40px;}
-
-.headshot {display:block; margin:auto}
-
 .flexContainer {
     background-color:pink; display: flex;
   text-align: center;flex-direction: row; margin:25px auto 100px auto; width: 800px; padding: 50px;
@@ -59,47 +55,17 @@ button {background-color: beige;
 
 /* My UX Skills section coded using CSS flex */
 
-.workGrid {display: grid}
-
-footer {text-align: center}
-
-img.skillsimgs {height: 50%; width: 90%}
 
 h {text-align: center;}
 
-.teamimg {width: 60%; height: 60%;}
-.soloimg  {width: 30%; height:70%;}
-
-.workGrid {display: grid;
-    grid:
-      'soloimg solo'
-      'teamimg team';
-    }
-    
-    .myWork {text-align: center}
-    .solo {grid-area:solo}
-    .team {grid-area:team}
-    .soloimg {grid-area:soloimg}
-    .teamimg {grid-area:teamimg}
-
-    .mySkills {text-align: center;}
 
 .flexitem {width: 33%; padding: 20px}
 
+.card{
+    display: inline-block;
 
-.animation{
-    display:block; margin:auto;
-    animation-name: flower;
-  animation-duration: 2s;
-  animation-iteration-count: 10;
 }
 
-@keyframes flower {
-    0% {background-color: coral; rotate: 90deg;}
-    25%{background-color: rgba(255, 127, 80, 0.617); rotate: 90deg;}
-    50%{background-color: rgb(255, 115, 80); rotate: 90deg;}
-    75%{background-color: rgba(251, 155, 120, 0.44); rotate: 90deg;}
-}
 
 
 
